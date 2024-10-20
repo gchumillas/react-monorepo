@@ -1,6 +1,6 @@
 
 > [!NOTE]
-> Documentation under development.
+> Under development.
 
 React monorepo template created with [NX](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial).
 
