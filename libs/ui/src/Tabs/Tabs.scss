@@ -1,0 +1,37 @@
+.ui-tabs {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid var(--neutral-700);
+
+  &--left {
+    justify-content: start;
+  }
+  
+  &--center {
+    justify-content: center;
+  }
+  
+  &--right {
+    justify-content: end;
+  }
+}
+
+.ui-tabs__item {
+  padding: 8px 48px;
+  color: var(--neutral-500);
+  float: left;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+  border-bottom: 2px solid transparent;
+
+  &:hover {
+    background-color: var(--neutral-100);
+    border-color: var(--blue-700);
+  }
+
+  &--selected {
+    color: var(--blue-700);
+    border-color: var(--blue-700);
+  }
+}
