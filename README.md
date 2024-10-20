@@ -2,7 +2,7 @@
 > [!NOTE]
 > Documentation under development.
 
-React monorepo created with [NX](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial).
+React monorepo template created with [NX](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial).
 
 ```
 my-app/apps/
