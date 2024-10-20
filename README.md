@@ -1,3 +1,7 @@
+
+> [!NOTE]
+> Documentation under development.
+
 React monorepo project created with [NX](https://nx.dev/getting-started/tutorials/react-monorepo-tutorial).
 
 ```
