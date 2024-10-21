@@ -10,7 +10,7 @@ const Tabs = ({ value, onChange, align, className, children }: TabsProps) => {
 
   return (
     <context.Provider value={ctxValue}>
-      <ul className={clsx('ui ui-tabs', className, `ui-tabs--${align}`)}>
+      <ul className={clsx('ui-tabs', className, `ui-tabs--${align}`)}>
         {React.Children.map(children, (child, i) => (
           <li key={i}>{child}</li>
         ))}
