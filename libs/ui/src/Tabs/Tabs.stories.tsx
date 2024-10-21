@@ -16,6 +16,7 @@ export const Example = () => {
         <Tabs.Item value="tab-3" label="Section 3" />
       </Tabs>
       <p hidden={tab != 'tab-1'} className="px-16">
+		<button>click me!</button>
         Curabitur aliquet quam id dui posuere blandit. Donec sollicitudin
         molestie malesuada. Nulla porttitor accumsan tincidunt. Curabitur
         aliquet quam id dui posuere blandit. Vestibulum ac diam sit amet quam

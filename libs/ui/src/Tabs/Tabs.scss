@@ -1,4 +1,7 @@
 .ui-tabs {
+  list-style: none;
+  margin: 0;
+  padding: 0;
   display: flex;
   flex-direction: row;
   border-bottom: 1px solid var(--neutral-700);
@@ -17,6 +20,8 @@
 }
 
 .ui-tabs__item {
+  color: inherit;
+  text-decoration: none;
   padding: 8px 48px;
   color: var(--neutral-500);
   float: left;
